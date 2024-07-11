@@ -1,0 +1,11 @@
+POST http://localhost:3000/trips/da40acfa-1f53-4099-bf6a-c6f5842c1f19/links
+Content-Type: application/json
+
+{
+    "title": "Aulas de ferias",
+    "url": "https://app.rocketseat.com.br/events/nlw-journey/nodejs"
+}
+
+###
+GET http://localhost:3000/trips/da40acfa-1f53-4099-bf6a-c6f5842c1f19/links
+Content-Type: application/json

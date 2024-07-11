@@ -1,0 +1,28 @@
+POST http://localhost:3000/trips
+Content-Type: application/json
+
+{
+    "destination": "Florianopolis",
+    "starts_at": "2024-07-18 20:00:00",
+    "ends_at": "2024-07-20 20:00:00",
+    "owner_name": "Juan Barcelos",
+    "owner_email": "barcelosjuan42@gmail.com",
+    "emails_to_invite": [
+        "juan.h.barcelos@hotmail.com",
+        "juanbarcelos.ti@outlook.com"
+    ]
+}
+
+###
+PUT http://localhost:3000/trips/da40acfa-1f53-4099-bf6a-c6f5842c1f19
+Content-Type: application/json
+
+{
+    "destination": "Florianopolis-sc",
+    "starts_at": "2024-07-18 20:00:00",
+    "ends_at": "2024-07-20 20:00:00"
+}
+
+###
+GET http://localhost:3000/trips/da40acfa-1f53-4099-bf6a-c6f5842c1f19
+Content-Type: application/json

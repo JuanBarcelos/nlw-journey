@@ -1,0 +1,11 @@
+POST http://localhost:3000/trips/da40acfa-1f53-4099-bf6a-c6f5842c1f19/activities
+Content-Type: application/json
+
+{
+    "title": "Jogar bola",
+    "occurs_at": "2024-07-20 16:00:00"
+}
+
+###
+GET http://localhost:3000/trips/da40acfa-1f53-4099-bf6a-c6f5842c1f19/activities
+Content-Type: application/json

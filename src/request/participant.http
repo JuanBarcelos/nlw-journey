@@ -1,0 +1,10 @@
+GET http://localhost:3000/participants/22998b37-0892-48d2-adc6-1be51ffce004/confirm
+Content-Type: application/json
+
+###
+GET http://localhost:3000/trips/da40acfa-1f53-4099-bf6a-c6f5842c1f19/participants
+Content-Type: application/json
+
+###
+GET http://localhost:3000/participants/c9326255-a815-4f62-a30f-5a68602a513d
+Content-Type: application/json

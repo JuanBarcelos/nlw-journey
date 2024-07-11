@@ -1,0 +1,6 @@
+POST http://localhost:3000/trips/da40acfa-1f53-4099-bf6a-c6f5842c1f19/invite
+Content-Type: application/json
+
+{
+    "email": "pity@gmail.com"
+}
